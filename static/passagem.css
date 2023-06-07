@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#HeaderPassagem {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #daa520;
+}
+
+#HeaderPassagemTexto {
+  display: flex;
+  align-items: center;
+}
+
+.iconeHeader {
+  height: 80px;
+  width: 80px;
+}
+
+.nomeHeader {
+  padding-left: 20px;
+  font-family: "Lobster", cursive;
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
+}
+
+.textHeader {
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+  background-color: rgba(240, 248, 255, 0.108);
+  border-radius: 10px;
+}
+.textHeader:hover {
+  text-decoration: underline;
+}
